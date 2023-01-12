@@ -32,7 +32,6 @@ set minute=%time2:~3,2%
 
 @rem ===========================================================================
 
-@rem video=""とaudio=""の括弧には、適切なデバイス名を入れてください。
 @rem MPEG録画（画質：低）
 %ffmexe% -rtbufsize 16M -f dshow -i video=%videodevice%:audio=%audiodevice% -c:v mpeg1video -c:a mp2 -b:a 64k -ac 1 %videodir%\%year%%month%%day%%hour%%minute%.mpeg
 @rem VP8録画（画質：高）VLCが必要な形式です。こちらを使用する場合は、VP8のエンコードができるffmpegをお使いください。
