@@ -22,8 +22,9 @@ set videodir=.
 set year=%date:~2,2%
 set month=%date:~5,2%
 set day=%date:~8,2%
-set hour=%time:~0,2%
-set minute=%time:~3,2%
+set time2=%time: =0%
+set hour=%time2:~0,2%
+set minute=%time2:~3,2%
 
 @rem ===========================================================================
 
