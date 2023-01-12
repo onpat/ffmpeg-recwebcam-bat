@@ -13,4 +13,4 @@ MJPEG, MPEG-1 Video, MPEG-2 VideoとMPEG-1 Audio Layer-2に対応するffmpegが
 2. 録画した動画ファイルは、videoフォルダに保存されています。
 
 ## License
-MIT
+CC0
