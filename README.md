@@ -12,5 +12,9 @@ MJPEG, MPEG-1 Video, MPEG-2 VideoとMPEG-1 Audio Layer-2に対応するffmpegが
 1. record.batをダブルクリックすると録画が開始します。ウィンドウを閉じると録画を停止します。
 2. 録画した動画ファイルは、videoフォルダに保存されています。
 
+## 動作しない場合
+* record.batをメモ帳で開き、名前をつけて保存→文字コードを"ANSI"に設定して上書きしてください。
+* カメラやマイクがWindowsに認識されているか、デバイス名が正しいか確認してください。
+
 ## License
 CC0
